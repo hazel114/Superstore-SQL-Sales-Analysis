@@ -1,0 +1,131 @@
+📊 SUPERSTORE SALES ANALYSIS - KEY INSIGHTS
+
+==================================================
+
+1. DATA QUALITY ASSESSMENT
+
+• Dataset contains 9,994 retail transaction records.
+• No missing values were found in key columns after validation.
+• 17 duplicate records were identified using the ROW_NUMBER() window function.
+• Sales, Quantity, and Discount fields contain no invalid negative values.
+• Profit contains both positive and negative values, representing profitable and loss-making transactions.
+
+==================================================
+
+2. DATA OVERVIEW
+
+• The dataset contains retail sales transactions across the United States.
+• Three product categories are present:
+  - Technology
+  - Furniture
+  - Office Supplies
+
+• Sales are distributed across four regions:
+  - West
+  - East
+  - Central
+  - South
+
+==================================================
+
+3. CATEGORY-WISE SALES ANALYSIS
+
+Technology generated the highest revenue:
+
+• Technology: $836,154.03
+• Furniture: $741,999.80
+• Office Supplies: $719,047.03
+
+Insight:
+Technology is the leading category in terms of total sales contribution.
+
+==================================================
+
+4. CATEGORY-WISE PROFIT ANALYSIS
+
+• Technology generated the highest overall profit.
+• Office Supplies contributed strong profitability.
+• Furniture generated the lowest profit despite substantial sales.
+
+Insight:
+Higher sales do not always translate into higher profit. Furniture shows comparatively weaker profitability due to discounting or cost structure.
+
+==================================================
+
+5. REGION-WISE SALES ANALYSIS
+
+• West region recorded the highest sales performance.
+• East region ranked second.
+• Central region showed moderate sales performance.
+• South region generated the lowest sales.
+
+Insight:
+Sales performance varies significantly across regions, indicating regional demand differences.
+
+==================================================
+
+6. TOP PROFITABLE STATES
+
+Top-performing states based on total profit:
+
+1. California ($76,381.39)
+2. New York ($74,038.55)
+3. Washington ($33,402.65)
+4. Michigan ($24,463.19)
+5. Virginia ($18,597.95)
+
+Insight:
+California and New York are the most profitable states and contribute significantly to overall business profitability.
+
+==================================================
+
+7. LOSS-MAKING STATES
+
+Several states generated negative overall profit despite recording sales activity:
+
+• Texas
+• Ohio
+• Pennsylvania
+• Illinois
+• North Carolina
+• Colorado
+• Tennessee
+• Arizona
+• Florida
+• Oregon
+
+Insight:
+High sales volume alone does not guarantee profitability. These states may require improvements in pricing strategy, discount control, or operational efficiency.
+
+==================================================
+
+8. BUSINESS INSIGHTS
+
+• Technology is the strongest category in both sales and profit.
+• Furniture shows relatively high sales but significantly lower profitability, indicating potential issues with discounting or cost structure.
+• West region contributes the highest revenue.
+• South region represents the weakest sales-performing region.
+• Multiple states are loss-making despite active sales.
+• California and New York are major profit-driving markets.
+
+==================================================
+
+9. TOOLS & SKILLS USED
+
+Tools:
+• MySQL Workbench
+
+SQL Concepts:
+• SELECT
+• DISTINCT
+• WHERE
+• GROUP BY
+• ORDER BY
+• HAVING
+• Aggregate Functions
+• Window Functions (ROW_NUMBER)
+• Data Validation
+• Data Cleaning
+• Exploratory Data Analysis (EDA)
+
+==================================================
