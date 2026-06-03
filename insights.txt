@@ -1,6 +1,6 @@
 📊 SUPERSTORE SALES ANALYSIS - KEY INSIGHTS
 
-==================================================
+
 
 1. DATA QUALITY ASSESSMENT
 
@@ -10,7 +10,7 @@
 • Sales, Quantity, and Discount fields contain no invalid negative values.
 • Profit contains both positive and negative values, representing profitable and loss-making transactions.
 
-==================================================
+
 
 2. DATA OVERVIEW
 
@@ -26,7 +26,7 @@
   - Central
   - South
 
-==================================================
+
 
 3. CATEGORY-WISE SALES ANALYSIS
 
@@ -39,7 +39,7 @@ Technology generated the highest revenue:
 Insight:
 Technology is the leading category in terms of total sales contribution.
 
-==================================================
+
 
 4. CATEGORY-WISE PROFIT ANALYSIS
 
@@ -50,7 +50,6 @@ Technology is the leading category in terms of total sales contribution.
 Insight:
 Higher sales do not always translate into higher profit. Furniture shows comparatively weaker profitability due to discounting or cost structure.
 
-==================================================
 
 5. REGION-WISE SALES ANALYSIS
 
@@ -62,7 +61,7 @@ Higher sales do not always translate into higher profit. Furniture shows compara
 Insight:
 Sales performance varies significantly across regions, indicating regional demand differences.
 
-==================================================
+
 
 6. TOP PROFITABLE STATES
 
@@ -77,7 +76,6 @@ Top-performing states based on total profit:
 Insight:
 California and New York are the most profitable states and contribute significantly to overall business profitability.
 
-==================================================
 
 7. LOSS-MAKING STATES
 
@@ -97,7 +95,7 @@ Several states generated negative overall profit despite recording sales activit
 Insight:
 High sales volume alone does not guarantee profitability. These states may require improvements in pricing strategy, discount control, or operational efficiency.
 
-==================================================
+
 
 8. BUSINESS INSIGHTS
 
@@ -108,7 +106,7 @@ High sales volume alone does not guarantee profitability. These states may requi
 • Multiple states are loss-making despite active sales.
 • California and New York are major profit-driving markets.
 
-==================================================
+
 
 9. TOOLS & SKILLS USED
 
