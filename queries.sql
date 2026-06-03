@@ -1,6 +1,4 @@
--- ==============================
--- SUPERSTORE SQL PROJECT
--- ==============================
+
 
 -- BASIC DATA CHECKS
 SELECT COUNT(*) AS total_records
@@ -12,9 +10,6 @@ FROM superstore;
 SELECT DISTINCT Region AS unique_regions
 FROM superstore;
 
--- ==============================
--- DATA CLEANING CHECKS
--- ==============================
 
 -- NULL VALUE CHECK
 SELECT
@@ -38,9 +33,6 @@ SELECT * FROM superstore WHERE Quantity < 0;
 SELECT * FROM superstore WHERE Discount < 0;
 SELECT * FROM superstore WHERE Profit < 0;
 
--- ==============================
--- ANALYSIS QUERIES
--- ==============================
 
 -- SALES BY CATEGORY
 SELECT Category,
